@@ -1,0 +1,309 @@
+*
+{
+    box-sizing: border-box;
+}
+main{
+    width: 1366px;
+    height: 1500px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+header{
+    width: 1366px;
+    height: 86px;
+}
+   
+
+nav{
+    width: 1366px;
+    height: 60px;
+    background-color:rgb(31, 31, 158) ;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;  
+}
+nav a{
+    width: 30px;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 50px;
+    transition: 1s;
+    text-align: center;
+    font-size: large;
+    font-family: 'Sylfaen', sans-serif;
+
+}
+nav :hover{
+    color: black;
+}
+section{
+    width: 1366px;
+    height: 1400px;
+    background-color: rgb(255, 255, 255);
+
+}
+section .arriba{
+    width: 1366px;
+    height: 92px; 
+}
+.arriba .imagen{
+    width: 1366px;
+    height: 86px;
+}
+
+section .centro{
+    width: 815px;
+    height: 800px;
+    background-color: rgb(28, 119, 184) ;
+    margin-left: 15px;
+    margin-top: 25px;
+   padding-top: 20px;
+   padding-left: 5px;
+   padding-right: 5px;
+   float: left;
+
+}
+.centro .cuadro1{
+    width: 742px;
+    height: 200px;
+    background-color: skyblue;
+    margin-left: 40px;
+    padding-left: 5px;
+    animation-name: animacion1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    position: relative;
+}
+.cuadro1 .titulo{
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: white;
+
+}
+.cuadro1 .texto{
+    text-decoration: none;
+    transition: 1s;
+  text-align: center;
+    font-size: small;
+  padding-left: 120px;
+    padding-right: 15px;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10px;
+    
+}
+.cuadro1 .imagen1{
+    width:50px;
+    height: 30px;
+    padding-left: 30px;
+    float: left;
+}
+.centro .cuadro2{
+    width: 742px;
+    height: 200px;
+    background-color: skyblue;
+    margin-left: 40px;
+    padding-left: 5px;
+    animation-name: animacion1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    position: relative;
+    margin-top: 40px;
+}
+.cuadro2 .titulo{
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: white;
+    padding-top: -3px;
+
+}
+.cuadro2 .texto{
+    text-decoration: none;
+    transition: 1s;
+  text-align: left;
+    font-size: small;
+  padding-left: 20px;
+    padding-right: 15px;
+    font-family: "Montserrat", sans-serif;
+    float: left;
+}
+.cuadro2 .imagen2{
+    width:50px;
+    height: 30px;
+    padding-left: 25px;
+    float: left;
+}
+
+.centro .cuadro3{
+    width: 742px;
+    height: 200px;
+    background-color: skyblue;
+    margin-left: 40px;
+    padding-left: 5px;
+    margin-top: 40px;
+    animation-name: animacion1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    position: relative;
+}
+.cuadro3 .titulo{
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: white;
+
+}
+
+.cuadro3 .texto{
+    text-decoration: none;
+    transition: 1s;
+  text-align: left;
+    font-size: small;
+  padding-left:130px;
+    font-family: "Montserrat", sans-serif;
+    float: left;
+    margin-top: -45px;
+}
+.cuadro3 .imagen3{
+    width:50px;
+    height: 30px;
+    padding-left: 15px;
+ float: left;
+    
+}
+section .derecha{
+    width: 400px;
+    height: 800px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 25px;
+    background-image: url(../imagenes/imagen\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.derecha .titulo{
+    width: 400px;
+    height: 100px;
+    color:rgb(12, 50, 77) ;
+  background-color: skyblue;
+    text-align: center;
+    font-family: 'Sylfaen', sans-serif;
+    padding-top: 25px;
+
+
+}
+
+.derecha .texto{
+    width: 330px;
+    height: 100px;
+   text-align: center;
+   font-size: small;
+   font-family: "Montserrat", sans-serif;
+   background-color: white;
+   padding-top: 20px;
+   margin-top: 80px;
+   margin-left: 40px;
+   animation-name: animacion2;
+   animation-duration: 3s;
+   animation-iteration-count: 1;
+   position: relative;
+}
+.derecha .precio1{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+   font-size: x-large;
+   font-family: "Montserrat", sans-serif;
+   background-color: white;
+   padding-top: 5px;
+   margin-top: 80px;
+   margin-left: 40px;
+   float: left;
+   font-family: "Montserrat", sans-serif;
+     animation-name: animacion2;
+   animation-duration: 3s;
+   animation-iteration-count: 1;
+   position: relative;
+}
+.derecha .precio2{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+   font-size: x-large;
+   font-family: "Montserrat", sans-serif;
+   background-color: white;
+   padding-top: 5px;
+   margin-top: 80px;
+   margin-left: 25px;
+   float: left;
+   animation-name: animacion2;
+   animation-duration: 3s;
+   animation-iteration-count: 1;
+   position: relative;
+}
+.derecha .precio3{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+   font-size: x-large;
+   font-family: "Montserrat", sans-serif;
+   background-color: white;
+   padding-top: 5px;
+   margin-top: 80px;
+   margin-left: 40px;
+   float: left;
+   animation-name: animacion2;
+   animation-duration: 3s;
+   animation-iteration-count: 1;
+   position: relative;
+}
+.derecha .boton{
+    width: 330px;
+    height: 90px;
+    background-color:skyblue ;
+    margin-top: 200px;
+   margin-left: 40px;
+   padding-top: 15px;
+   font-size: large;
+   text-align: center;
+   border-radius: 30px;
+   font-family: 'Sylfaen', sans-serif;
+   color:  rgb(11, 43, 65);
+   animation-name: animacion2;
+   animation-duration: 3s;
+   animation-iteration-count: 1;
+   position: relative;
+
+}
+@keyframes animacion1{
+    from{
+       right: 25px;
+    }
+    to{
+        right: 0px;
+    }
+}
+
+@keyframes animacion2{
+    from{
+       top: 25px;
+    }
+    to{
+        top: 0px;
+    }
+}
+
+footer{
+    width: 1366px;
+    height: 100px;
+   background-color:skyblue ;
+}
